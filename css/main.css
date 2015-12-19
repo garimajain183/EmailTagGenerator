@@ -1,0 +1,56 @@
+.container {
+	width: 100%;
+	margin:40px auto;
+}
+
+#emailList{
+  float:left;
+  border:1px solid #ccc;
+  padding:5px;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+#emailList span.emailTagCont{
+  display:block;
+  float:left;
+  background-color: #dce0df;
+  padding:7px 30px 7px 7px;
+  margin:4px;
+  position: relative;
+}
+
+#emailList span.emailTagClose{
+ position:absolute;
+ background-color: #1693bd;
+ color: #fff;
+ padding: 0 5px 1px 5px;
+ top: 7px;
+ right: 7px;
+ cursor:pointer;
+ -webkit-box-shadow: 0 0 5px #47D3DD, 0 0 10px #fff;
+ -moz-box-shadow: 0 0 5px #47D3DD, 0 0 10px #fff;
+  box-shadow: 0 0 5px #47D3DD, 0 0 10px #fff;
+}
+
+#emailList input {
+  border: 0;
+  padding: 5px;
+  width: auto;
+  min-height: 30px;
+}
+
+#emailList input:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
